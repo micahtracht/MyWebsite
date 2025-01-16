@@ -1,6 +1,12 @@
+/* header styling */
+
+
 .header {
     font-size: 2rem;
     font-family: Rockwell;
+
+
+
 
     display: flex;
     justify-content: center;
@@ -9,6 +15,46 @@
     margin: auto;
     width: fit-content;
 }
+/* divider section styling */
+
+
+.divider-1 {
+    height: 20px;
+    background: linear-gradient(to right, #08baf0, #ee0707);
+    background-size: 200% 100%;
+    width: 100%;
+    margin: 5px auto;
+    border-radius: 1px;
+    animation: gradient-shift 5s infinite linear;
+    position: relative;
+}
+
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.divider-1:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
+
+/* coding section and coding images styling */
+
 
 .coding {
     display: flex;
@@ -17,7 +63,89 @@
     flex-direction: column;
     margin: auto;
     width: fit-content;
+
+
+    background-color: rgba(172, 202, 247, 0.349);
 }
+
+
+.coding-header {
+    font-size: 3rem;
+    font-family: Impact;
+}
+
+
+.coding-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    flex-direction: row;
+}
+
+
+.coding-images img {
+    width: 50%;
+    height: 50%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: rgba(13, 61, 133, 0.349);
+    padding: 5px;
+}
+
+
+.image-container {
+    font-size: 2.5rem;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* mathematics section styling */
+
+
+.math {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+
+
+    background-color: rgba(10, 49, 107, 0.637);
+}
+
+
+.math-header {
+    font-size: 3rem;
+    font-family: Impact;
+}
+
+
+.statistics {
+    font-family: Helvetica;
+}
+
+
+.statistics p {
+    font-family: Arial;
+}
+
+
+
+
+
+
+/* Scroll button styling */
+
 
 .scroll-buttons button {
     background-color: rgba(13, 61, 133, 0.349);
@@ -27,13 +155,27 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 12px;
+    gap: 50px;
 }
+
+
+
 
 .scroll-buttons button:hover {
     background-color: rgba(7, 34, 75, 0.651);
     font-weight: bold;
 }
 
+
+
+
 .scroll-buttons button:active {
     background-color:rgba(4, 21, 46, 0.767);
 }
+
+
+
+
+
+
+
