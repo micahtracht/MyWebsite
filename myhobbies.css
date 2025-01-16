@@ -20,13 +20,14 @@
 
 .divider-1 {
     height: 20px;
-    background: linear-gradient(to right, #08baf0, #ee0707);
+    background: linear-gradient(to right, #b700ff, #00ffdd);
     background-size: 200% 100%;
     width: 100%;
     margin: 5px auto;
     border-radius: 1px;
     animation: gradient-shift 5s infinite linear;
     position: relative;
+    transform: scale(1.1);
 }
 
 
@@ -44,7 +45,7 @@
 
 
 .divider-1:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -113,11 +114,10 @@
 
 .math {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: auto;
-    width: fit-content;
+    width: 100%;
 
 
     background-color: rgba(10, 49, 107, 0.637);
@@ -131,13 +131,36 @@
 
 
 .statistics {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    margin-left: 35px;
     font-family: Helvetica;
+    gap: 20px;
 }
-
-
+.statistics-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+.statistics h3 {
+    font-size: 2rem;
+}
 .statistics p {
+    font-size: 1.2rem;
     font-family: Arial;
+    width: 500px;
 }
+
+.statistics img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 130px;
+}
+
 
 
 
