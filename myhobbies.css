@@ -1,0 +1,39 @@
+.header {
+    font-size: 2rem;
+    font-family: Rockwell;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+}
+
+.coding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+}
+
+.scroll-buttons button {
+    background-color: rgba(13, 61, 133, 0.349);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.scroll-buttons button:hover {
+    background-color: rgba(7, 34, 75, 0.651);
+    font-weight: bold;
+}
+
+.scroll-buttons button:active {
+    background-color:rgba(4, 21, 46, 0.767);
+}

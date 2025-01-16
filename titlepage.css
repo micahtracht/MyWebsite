@@ -1,0 +1,89 @@
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.header {
+    font-size: 2.5rem;
+    font-family: Rockwell;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+}
+
+.main-content {
+    background-color: rgb(0, 0, 0);
+    margin: 20px auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.about-me, .my-hobbies, .my-school {
+    font-family: Rockwell;
+    background-color: white;
+    padding: 50px 50px;
+    flex: 1; 
+    max-width: 33%; 
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+    margin: 10px 50px; 
+}
+
+.about-me a, .my-hobbies a, .my-school a {
+    text-decoration: none;
+    color: rgb(136, 169, 180);
+}
+.about-me a:hover, .my-hobbies a:hover, .my-school a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.center {
+    margin: auto;
+    width: fit-content;
+}
+
+.my-image {
+    text-align: center;
+}
+
+.my-image img /* only image attributes */ {
+    margin: auto;
+    width: 50%;
+    height: 200%;
+}
+
+.navbar {
+    background-color:rgb(139, 160, 255);
+    padding: 10px;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar a { /* Only a attributes (the links) */
+    color: lightblue;
+    margin: 10px 15px;
+    text-decoration:none;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover /* what they do when hovered */ {
+    color: white;
+}
