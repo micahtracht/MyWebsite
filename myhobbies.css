@@ -18,6 +18,8 @@
 /* divider section styling */
 
 
+/* divider 1 */
+
 .divider-1 {
     height: 20px;
     background: linear-gradient(to right, #b700ff, #00ffdd);
@@ -50,6 +52,12 @@
 }
 
 
+/* divider 2 */
+
+.divider-2 { /* blank space divider */
+    height: 100px;
+    width: 100%;
+}
 
 
 
@@ -93,7 +101,7 @@
     margin: 10px 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    background-color: rgba(13, 61, 133, 0.349);
+    background-color: rgba(81, 197, 226, 0.349);
     padding: 5px;
 }
 
@@ -111,7 +119,6 @@
 
 /* mathematics section styling */
 
-
 .math {
     display: flex;
     align-items: center;
@@ -125,10 +132,17 @@
 
 
 .math-header {
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: Impact;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgb(100, 242, 252);
 }
 
+/* stats section */
 
 .statistics {
     display: flex;
@@ -161,9 +175,104 @@
     margin-right: 130px;
 }
 
+/* number theory section */
+.number-theory {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    margin-right: 35px;
+    font-family: Helvetica;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
 
+.number-theory-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
 
+.number-theory h3 {
+    font-size: 2rem;
+}
 
+.number-theory p {
+    font-size: 1.2rem;
+    font-family: Arial;
+    width: 500px;
+}
+
+.number-theory img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 130px;
+}
+
+/* combinatorics section */
+
+.combinatorics {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    margin-left: 35px;
+    font-family: Helvetica;
+    gap: 20px;
+}
+
+.combinatorics-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.combinatorics h3 {
+    font-size: 2rem;
+}
+.combinatorics p {
+    font-size: 1.2rem;
+    font-family: Arial;
+    width: 500px;
+}
+
+.combinatorics img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 130px;
+}
+
+/* data science styling */
+
+.datascience-ML {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+    background-color:#0400ff8e
+}
+
+.datascience-header {
+    font-size: 5rem;
+    font-family: Impact;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #21fc04;
+}
+
+.datascience h3 {
+    font-size: 2rem;
+    font-family: impact;
+}
 
 
 
